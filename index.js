@@ -131,4 +131,5 @@ app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
 
-module.exports = app;
+
+// mongodb+srv://vercel-admin-user:3ZXmqoIaOCh6xdW4@cluster0.uiwbado.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
