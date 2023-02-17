@@ -124,9 +124,11 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Hello !')
 })
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
+
+module.exports = app;
